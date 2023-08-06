@@ -320,12 +320,15 @@ class App extends Component {
             alt="website logo"
             className="website-logo"
           />
-          <div className="match-highlights-container">
-            <p className="score">
-              Score:
-              <span>{score}</span>
-            </p>
-            <div className="timer-container">
+          <ul className="match-highlights-container">
+            <li>
+              <p className="score">
+                Score:
+                <span>{score}</span>
+              </p>
+            </li>
+
+            <li className="timer-container">
               <img
                 src="https://assets.ccbp.in/frontend/react-js/match-game-timer-img.png"
                 alt="timer"
@@ -333,8 +336,8 @@ class App extends Component {
               />
 
               <p className="timer">{timer} sec</p>
-            </div>
-          </div>
+            </li>
+          </ul>
         </nav>
         <div className="bottom-container">
           {!gameOver && (

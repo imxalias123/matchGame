@@ -139,6 +139,7 @@ li {
   justify-content: center;
   align-items: center;
   padding: 8px;
+  margin-bottom: 30px;
 }
 @media screen and (min-width: 768px) {
   .website-logo {
@@ -158,9 +159,13 @@ li {
   }
   .thumbnailList-container {
     width: 750px;
+    border-radius: 10px;
   }
   .game-over-img {
     background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-lg-bg.png');
     height: 100%;
+  }
+  .game-over-trophy {
+    margin-top: 170px;
   }
 }
